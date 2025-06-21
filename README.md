@@ -1,6 +1,6 @@
 # Ziply
 
-Ziply adalah aplikasi web canggih untuk kompresi gambar dan konversi file ke PDF dengan tampilan modern, animasi interaktif, dan pengalaman pengguna yang responsif. Dikembangkan menggunakan Next.js, Tailwind CSS, dan berbagai library pendukung.
+Ziply adalah aplikasi web canggih untuk kompresi gambar dan konversi file ke PDF dengan tampilan praktis, animasi interaktif, dan pengalaman pengguna yang responsif. Dikembangkan menggunakan Next.js, Tailwind CSS, dan berbagai library pendukung.
 
 ## Fitur Utama
 

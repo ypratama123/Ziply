@@ -19,7 +19,7 @@ export default function Home() {
         transition={{ delay: 0.5, duration: 1 }}
         className="text-lg md:text-2xl text-gray-700 mb-12 text-center max-w-xl"
       >
-        Kompres & konversi file dengan mudah, cepat, dan tampilan modern.
+        Kompres & konversi file dengan mudah, cepat, dan praktis.
       </motion.p>
 
       {/* Tombol utama */}
