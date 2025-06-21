@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ziply
+
+Ziply adalah aplikasi web canggih untuk kompresi gambar dan konversi file ke PDF dengan tampilan modern, animasi interaktif, dan pengalaman pengguna yang responsif. Dikembangkan menggunakan Next.js, Tailwind CSS, dan berbagai library pendukung.
+
+## Fitur Utama
+
+1. **Landing Page**: Halaman pembuka dengan animasi nama aplikasi dan elemen dinamis.
+2. **Pilihan Fitur**: Memilih antara kompresi gambar atau konversi file ke PDF dengan tombol animasi.
+3. **Kompresi Gambar**: Upload, preview, kompresi instan, dan download gambar hasil kompresi.
+4. **Konversi ke PDF**: Upload multi-file (gambar/dokumen), preview, dan gabungkan menjadi satu file PDF.
+5. **Halaman Terima Kasih**: Animasi ucapan terima kasih dan tombol kembali ke landing page.
+
+## Teknologi
+- Next.js (React)
+- Tailwind CSS
+- Framer Motion (animasi)
+- browser-image-compression (kompresi gambar)
+- pdf-lib & jspdf (konversi PDF)
+- react-pdf (preview PDF)
+
+## Deploy
+Aplikasi ini siap untuk di-deploy ke Vercel dan diintegrasikan dengan GitHub.
+
+---
+
+> Dibuat dengan ❤️ untuk pengalaman kompresi & konversi yang lebih mudah dan menyenangkan.
 
 ## Getting Started
 
