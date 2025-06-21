@@ -19,8 +19,22 @@
   }
 }
 
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body {
-  background: #f0f4ff; /* Warna biru muda yang sangat lembut */
+  background: linear-gradient(-45deg, #e0e7ff, #d8b4fe, #fbcfe8, #a5b4fc);
+  background-size: 400% 400%;
+  animation: gradient-animation 18s ease infinite;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
