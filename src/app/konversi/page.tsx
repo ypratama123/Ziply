@@ -60,7 +60,7 @@ export default function KonversiPage() {
       const pdfBytes = await pdfDoc.save();
       const blob = new Blob([pdfBytes], { type: "application/pdf" });
       setPdfUrl(URL.createObjectURL(blob));
-    } catch (err) {
+    } catch {
       alert("Gagal mengonversi file!");
     }
     setLoading(false);

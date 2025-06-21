@@ -27,7 +27,7 @@ export default function KompresiPage() {
       const compressed = await imageCompression(file, options);
       setCompressedFile(compressed);
       setCompressedUrl(URL.createObjectURL(compressed));
-    } catch (err) {
+    } catch {
       alert("Gagal mengompresi gambar!");
     }
     setLoading(false);
