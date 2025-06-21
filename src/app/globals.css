@@ -31,6 +31,18 @@
   }
 }
 
+@keyframes float {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-25px) rotate(20deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
 body {
   background: linear-gradient(-45deg, #e0e7ff, #d8b4fe, #fbcfe8, #a5b4fc);
   background-size: 400% 400%;
