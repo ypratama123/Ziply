@@ -31,6 +31,24 @@
   }
 }
 
+@keyframes logo-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  background-image: linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  animation: logo-gradient 3s ease infinite;
+}
+
 body {
   background: linear-gradient(-45deg, #a8b2ff, #c9a7ff, #ffb3de, #8ea1ff);
   background-size: 400% 400%;
