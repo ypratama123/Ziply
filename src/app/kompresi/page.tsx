@@ -3,6 +3,7 @@ import { useRef, useState } from "react";
 import imageCompression from "browser-image-compression";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Background from "../components/Background";
 
 export default function KompresiPage() {
   const [originalFile, setOriginalFile] = useState<File | null>(null);
@@ -42,13 +43,8 @@ export default function KompresiPage() {
   };
 
   return (
-    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 px-4 py-10">
-      {/* Latar belakang reuse */}
-      <div className="absolute inset-0 -z-10">
-        <motion.div className="absolute bg-blue-300 opacity-30 rounded-full w-72 h-72 top-[-60px] left-[-60px] blur-2xl" animate={{ y: [0, 40, 0], x: [0, 20, 0] }} transition={{ repeat: Infinity, duration: 8, ease: "easeInOut" }} />
-        <motion.div className="absolute bg-pink-300 opacity-30 rounded-full w-96 h-96 bottom-[-80px] right-[-80px] blur-2xl" animate={{ y: [0, -30, 0], x: [0, -20, 0] }} transition={{ repeat: Infinity, duration: 10, ease: "easeInOut" }} />
-        <motion.div className="absolute bg-purple-300 opacity-20 rounded-full w-60 h-60 top-1/2 left-1/2 blur-2xl" animate={{ scale: [1, 1.2, 1], rotate: [0, 15, 0] }} transition={{ repeat: Infinity, duration: 12, ease: "easeInOut" }} />
-      </div>
+    <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 py-10">
+      <Background />
       <motion.h2 initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mb-8 text-center">
         Kompresi Gambar
       </motion.h2>
