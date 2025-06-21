@@ -1,12 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Background from "../components/Background";
 
 export default function FiturPage() {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
-      <Background />
       <motion.h2
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

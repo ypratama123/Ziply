@@ -1,12 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import Background from "./components/Background";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
-      <Background />
-
       {/* Nama aplikasi dengan animasi */}
       <motion.h1
         initial={{ opacity: 0, y: -40 }}

@@ -1,12 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Background from "../components/Background";
 
 export default function TerimaKasihPage() {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 py-10">
-      <Background />
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}

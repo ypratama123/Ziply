@@ -4,7 +4,6 @@ import { PDFDocument } from "pdf-lib";
 import mammoth from "mammoth";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import Background from "../components/Background";
 
 export default function KonversiPage() {
   const [files, setFiles] = useState<File[]>([]);
@@ -77,7 +76,6 @@ export default function KonversiPage() {
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-4 py-10">
-      <Background />
       <motion.h2 initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="text-3xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 mb-8 text-center">
         Konversi ke PDF
       </motion.h2>
